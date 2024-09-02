@@ -9,7 +9,7 @@ d=input('Please enter the destination:')
 
 #Fetching the route
 
-data = pd.read_csv('D:\SIH 2024\Recommend system\Route 761.csv')
+data = pd.read_csv('D:\SIH 2024\dtc-SmartScheduling\Recommend system\Route 761.csv')
 column_list = data['stop'].tolist()
 if s in column_list:
     if d in column_list:
